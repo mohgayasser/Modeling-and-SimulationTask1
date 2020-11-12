@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MultiQueueModels",
-    "\\MultiQueueSimulation"
+    "\\MultiQueueSimulation\\bin"
   ],
-  "SelectedNode": "\\MultiQueueSimulation\\Form1.cs",
+  "SelectedNode": "\\MultiQueueSimulation.sln",
   "PreviewInSolutionExplorer": false
 }
