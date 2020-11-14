@@ -11,6 +11,8 @@ namespace MultiQueueModels
         public Server()
         {
             this.TimeDistribution = new List<TimeDistribution>();
+            this.idle = true;
+            this.FinishTime = 0;
         }
 
         public int ID { get; set; }
@@ -23,5 +25,8 @@ namespace MultiQueueModels
         //optional if needed use them
         public int FinishTime { get; set; }
         public int TotalWorkingTime { get; set; }
+        public int TotalServiceTime { get; set; }
+        public bool idle{ get; set;}
+        public int idleTime { get; set; }
     }
 }
